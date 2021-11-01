@@ -1,0 +1,100 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%%-----------------------------------------------------------------------------
+%% Required package, everything inside this is for Norwegian/English language
+%%support
+\usepackage{ifthen}
+\usepackage[norsk,english]{babel} % requires texlive-languaes-european
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% some languace choosing doc:
+% https://tex.stackexchange.com/questions/186033/today-and-internationalization
+\AtBeginDocument{\selectlanguage{english}}
+
+\newcommand{\localedef}[2]{\csdef{#1}##1{\iflanguage{#2}{##1}{}\ignorespaces}}
+
+%% Language commands.
+\localedef{no}{norsk}
+\localedef{en}{english}
+%%-----------------------------------------------------------------------------
+
+%% ModernCV themes
+\moderncvtheme[black]{classic}
+%\moderncvtheme[black]{banking}
+\renewcommand{\familydefault}{\sfdefault}
+%\nopagenumbers{}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Adjust the page margins
+\usepackage[scale=0.90]{geometry}
+
+%%URL support
+%\usepackage{hyperref}
+
+%%% Classic style edits. 
+%%% http://ctan.uib.no/macros/latex/contrib/moderncv/moderncvstyleclassic.sty
+%% change size of contact info. 
+% fonts
+\renewcommand*{\addressfont}{\large\mdseries\slshape}
+% styles
+\renewcommand*{\addressstyle}[1]{{\addressfont\textcolor{color1}{#1}}}
+%% set size of left column. 
+\setlength{\hintscolumnwidth}{3cm}
+
+%% Personal data
+\firstname{Magnus L.}
+\familyname{Kirø}
+\title{Curriculum Vitae}
+\address{Myrteveien 6 (Leikvin) 
+%\en{Apartment}\no{Leilighet} 
+}{3152 Tolvsrød,
+\en{Norway}\no{Norge}}
+\phone[mobile]{+47~91~74~85~66}
+\email{magnuskiro@gmail.com}
+\homepage{magnuskiro.no}
+\social[linkedin]{magnuskiro}
+%\social[twitter]{magnuskiro}
+\social[github]{magnuskiro}
+\extrainfo{\textdagger 15.03.1990}
+%\photo[100pt][1pt]{test.jpg}
+
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle{}
+
+\section{\en{Key qualifications}\no{Nøkkelkvalifikasjoner}}
+\input{keyQualifications.tex}
+
+\section{\no{Arbeidserfaring}\en{Work Experience}}
+\input{experience.tex}
+
+\section{\no{Erfaring fra frivillige verv}\en{Volunteer Work}}
+\input{volunteerWork.tex}
+
+\section{\en{Positions of Confidence}\no{Tillitsverv}}
+\input{positionsOfConfidence.tex}
+
+\section{\en{Education}\no{Utdannelse}}
+\input{educaton.tex}
+
+\section{\en{Publication}\no{Publikasjon}} 
+\input{publications.tex}
+
+\section{\en{Skills}\no{Ferdigheter}}
+\input{skills.tex}
+
+\section{\en{Certificates, courses, and distinctions}\no{Utmerkelser og kurs}}
+\input{certificatesCourcesAndDistinctions.tex}
+
+\section{\en{Interests}\no{Interesser}}
+\input{interests.tex}
+
+%\section{\en{References}\no{Refereanser}}
+%\input{references.tex}
+
+\end{document}

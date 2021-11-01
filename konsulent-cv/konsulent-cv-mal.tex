@@ -1,0 +1,288 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%%-----------------------------------------------------------------------------
+%% Required package, everything inside this is for Norwegian/English language
+%%support
+\usepackage{ifthen}
+\usepackage[norsk,english]{babel}
+
+%% TeX function that generates the language commands.
+\def\localedef#1#2{
+\ifthenelse{ \equal{\locale}{#1} }{
+  \selectlanguage{#2}
+  \expandafter\def\csname#1\endcsname ##1{##1}
+  }{
+  \expandafter\def\csname#1\endcsname ##1{}
+  }
+}
+
+%%Controls the language output
+\providecommand\locale{no}
+
+%% Language commands.
+\localedef{no}{norsk}
+\localedef{en}{english}
+%%-----------------------------------------------------------------------------
+
+%% ModernCV themes
+\moderncvtheme[green]{classic}
+%\moderncvtheme[black]{banking}
+\renewcommand{\familydefault}{\sfdefault}
+%\nopagenumbers{}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Adjust the page margins
+\usepackage[scale=0.90]{geometry}
+
+%%URL support
+\usepackage{hyperref}
+
+%%% Classic style edits. 
+%%% http://ctan.uib.no/macros/latex/contrib/moderncv/moderncvstyleclassic.sty
+%% change size of contact info. 
+% fonts
+\renewcommand*{\addressfont}{\large\mdseries\slshape}
+% styles
+\renewcommand*{\addressstyle}[1]{{\addressfont\textcolor{color1}{#1}}}
+%% set size of left column. 
+\setlength{\hintscolumnwidth}{3.1cm}
+
+%% Personal data
+\firstname{Magnus Løken}
+\familyname{Kirø}
+%\address{Postboks 146, 
+%\en{Apartment}\no{Leilighet} 
+%}{3166 Tolvsrød,
+%\en{Norway}\no{Norge}}
+%\phone[mobile]{+47~91~74~85~66}
+%\email{magnuskiro@gmail.com}
+%\homepage{magnuskiro.no}
+%\social[linkedin]{magnuskiro}
+%\social[twitter]{magnuskiro}
+%\social[github]{magnuskiro}
+\extrainfo{\textdagger 15.03.1990}
+%\photo[100pt][1pt]{test.jpg}
+
+% title is the current position you have. 
+\title{Web-/Systemutvikler (bruk en eller flere titler)}
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle{}
+
+% Sammendrag av deg som kosnulent.
+\no{
+Her skal du skrive en egen beskrivelse av deg. 
+
+1. Innledning: Beskriv din kompetanse  med to-tre setninger, referere til din
+erfaring og  kompetens, bransch eller projekt. 
+
+2. Utdanning:  Utdannet innen… retning, eventuelle sertifisernger..
+
+3. Hva utmerker deg/ Hvordan fungerer du i prosjekt?
+
+ ”Det som utmerker seg ved Anna i prosjekt er..”  hvorfan jobber du i prosjekt,
+lederrolle, drivkraft, problemløser, etc …”.
+
+Bruk malen som inspirasjon og skriv en egen presentasjon ut i fra    bredvid som
+inspiration och skriv en egen presentation utifra samme stil.
+}
+
+% Beskrivende hovedtrekk ved deg.
+\subsection{\no{Hovedkvalifikasjoner /
+Spesialkunnskaper}}\label{specialQualifications}
+\no{
+Her skriver du dine fremste kompetanseområder. 
+\newline
+\newline
+\cvline{Fremhevet Erfaring}{
+\begin{itemize}
+\item  Løft frem tre erfaringer du er mest stolt av som karakteriserer deg litt
+ekstra. (punktliste)
+\item b
+\item c
+\end{itemize}
+}
+}
+
+\section{\no{Web-/Systemutvikler (samme tittel som øverst på første side.)}}
+\subsection{\no{Teknisk Profil}}
+ Under denne seksjonen og de følgende skal du liste samtlige teknikker du har
+ jobbet med, uansett hvor stor eller liten erfarening du har innen aktuell
+ teknikk. Ikke vær redd for å ta med noe selv om du bare har sittet og plukket
+ litt med teknikken. Dersom du har jobbet med en teknikk er det kunnskap,
+ uansett om du er ekspert innen emnet eller ei. Det kreves ikke at du fått
+betalt for å lære deg noe. Kompetanse som kommer fra egenintresse er lik
+relevant.
+\newline
+
+\cvline{Arbeidsområde}{
+Webutvikling, Systemutvikling, Systemintegrasjon, Kravspessifisering,
+Systemarkitektur, Databasedesign, Personlaledelse, Prosjektledelse, Organisasjonsledelse
+}
+%%-----------------------------------------------------------------------------
+\cvline{Utviklingsspråk og rammeverk}{
+Java, Pythnon, PHP, C, C++, GO, Perl, Bash, Shell, JavaScript, CSS3, HTML5,
+Assembly, 
+Spring, Flask, jQuery, Knockout.js, Angular.js,  
+}
+%%-----------------------------------------------------------------------------
+\cvline{Web- og mobilutvikling}{
+XML, HTML, XHTML, JSON, Web Services
+}
+%%-----------------------------------------------------------------------------
+\cvline{Arkitektur og Design}{
+BPMN, UML, MVC, ITIL Foundation, 
+}
+%%-----------------------------------------------------------------------------
+\cvline{Metodikk}{
+Agile, Scrum, Waterfall, 
+}
+%%-----------------------------------------------------------------------------
+\cvline{Databaser}{
+PostgreSQL, mySQL
+}
+%%-----------------------------------------------------------------------------
+\cvline{Test}{
+Junit, Nunit
+}
+%%-----------------------------------------------------------------------------
+\cvline{Produkter/miljøer}{
+Intellij IDEA, Pycharm, Linux, Linux Mint, Debian, Ubuntu, Confluence, Android SDK, \latex,
+Google analytics, SSH, Subversion, Git, Eclipse, GIMP, Vim,   
+}
+%%-----------------------------------------------------------------------------
+\cvline{Annet}{
+Ledelse, Økonomi, etc annet stuffs. 
+}
+%%-----------------------------------------------------------------------------
+% Make sure this section is the same as \ref{specialQualifications}
+\cvline{Spesialkunnskaper}{
+Systemutvikling, prosjketoppfølging, prosjektledelse, 
+}
+%%-----------------------------------------------------------------------------
+
+\subsection{\no{Annet}}
+[- Her skal du skrive alle relevante utdanninger og sertifiseringer du har tatt.
+Samt språk du kan.]
+\newline
+
+% copy from normal cv. 
+\cvline{Utdanning}{
+- Master i Informatikk fra Norges Tekniske- og Nturvitenskaplige Universitet(NTNU), med
+spessialisering innenfor informasjonsforvaltning.
+\newline
+- Bachelor
+\newline
+-  
+}
+%%-----------------------------------------------------------------------------
+\cvline{Kurs of Sertefiseringer}{
+- Regnskapskurs for frivillige organisasjoner etc. 
+}
+%%-----------------------------------------------------------------------------
+\cvline{Språk}{
+Norsk, Engelsk, Tysk
+}
+%%-----------------------------------------------------------------------------
+
+% Separation here summary first, experience after this. 
+%\newpage
+
+% list / table of employees
+\section{\no{Arbeidserfaring}\en{Work Experience}}
+[- Tabell med oversikt over arbeidsgivere og år for ansettelse.]
+
+\subsection{\no{Arbeidsgivers navn}}
+[- Beskrivelse av gitt arbeidsgiver. Hvem, hva, hvorfor.]
+[- Her under lister du opp all prosjekterfaring. Ikke glem deltidsstillinger og
+ekstrajobber. 
+Del opp lengre prosjekt eller stillinger etter ulike prosjekt du jobbet  i
+og/eller etter ulike roller du hatt i prosjektet slik at det blir flere poster,
+da blir din kompetanse mer lettlest.]
+
+% detailed descriptions of positions and projects.
+\section{\no{Prosjekterfaring}\en{Qualifications}}
+[- Detaljerte beskrivelser av arbeidet som er utført hos de forskjellige
+arbeidsgiverene.]
+
+[- Her under lister du opp all prosjekterfaring. Ikke glem deltidsstillinger og
+ekstrajobber. 
+Del opp lengre prosjekt eller stillinger etter ulike prosjekt du jobbet  i
+og/eller etter ulike roller du hatt i prosjektet slik at det blir flere poster,
+da blir din kompetanse mer lettlest.]
+
+	% position
+\subsection{\no{Stillingstittel}}
+Stillingstittelen skal beskrive din rolle/dine roller i prosjektet. Bruk gjerne
+flere titler i rubrikken for å vise hele prosjektet og ansvar du hadde utover
+hovedansvaret, f.eks.”Systemutvikler, testleder”.
+
+% The time period and the employer. 
+\cvline{Q3 2014 - dd}{Arbeidsgiver
+\newline
+[- <-- Datoformatet til venstre skal være kvartalsbassert, Q1-4. Prosjekter som er
+kortere enn et kvartal skal plasseres i det kvartalet prosjektet varte.]
+\newline
+[- Navnet på arbeidsgiver skal være på 1(en) linje.]
+}
+%%-----------------------------------------------------------------------------
+% description of this position. 
+\cvline{}{
+Beskrivelsen av prosjektet: 
+\newline
+[- Denne teksten skal utgå fra problemstillingene: Hva gjør selskapet?, Hva var
+problemet/hva trengte de hjelp med? Hvordan hjalpe jeg dem/hvordan løste jeg
+problemet? Hva ledet det til/hvordan endte prosjektet. Gjerne en
+suksesshistorie.]
+}
+%%-----------------------------------------------------------------------------
+% Technologies used in this project.  
+\cvline{Teknologier}{
+Java, HTML5, CSS3, JavaScript, Spring
+\newline
+[- I rubrikken “Teknologier” skal du liste hvilke ulike teknikker du anvendte under
+aktuelt prosjekt. Dette kan være elementer som programmeringsspråk (C++/Java),
+markup-languages (HTML/XML) og liknende teknikker.]
+}
+%%-----------------------------------------------------------------------------
+% Environments used in this project. 
+\cvline{Miljøer}{
+Linux, Ubuntu Server, Debian, Linux Mint, Intellij IDEA, 
+\newline
+[- I rubrikken ”Miljøer” skal du
+liste de verktøyene som du anvender for å utvikle med disse teknikkene. Miljøer
+kan både være operativsystem ( Windows/Linux/Unix/MacOS) men også
+programmeringsmiljøer som Visual Studio, Eclipse, JBoss og så videre.]
+}
+%%-----------------------------------------------------------------------------
+
+    % position
+\subsection{\no{Systemutvikler}}
+% description of this position. 
+\cvline{Q3.2014 - Q2.2015}{Næringslivsnettverket KID}
+\cvline{}{
+Utvikling av nettside + Detljert prosjektbeskrivelse
+}
+%%-----------------------------------------------------------------------------
+% Technologies used in this project.  
+\cvline{Technologier}{
+Java, HTML5, CSS3, JavaScript, Spring
+}
+%%-----------------------------------------------------------------------------
+% Environments used in this project. 
+\cvline{Miljøer}{
+Linux, Ubuntu Server, Debian, Linux Mint, Intellij IDEA,
+}
+%%-----------------------------------------------------------------------------
+
+% Highlights from projects andpossitions
+\section{\no{Prosjekterfaring (Fremhevede prosjekter)}\en{Project Experience
+(Highlights)}}
+- trekke fram de prosjektene som har vært viktigst. 
+
+
+\end{document}

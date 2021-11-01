@@ -1,0 +1,247 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%%-----------------------------------------------------------------------------
+%% Required package, everything inside this is for Norwegian/English language
+%%support
+\usepackage{ifthen}
+\usepackage[norsk,english]{babel}
+
+%% TeX function that generates the language commands.
+\def\localedef#1#2{
+\ifthenelse{ \equal{\locale}{#1} }{
+  \selectlanguage{#2}
+  \expandafter\def\csname#1\endcsname ##1{##1}
+  }{
+  \expandafter\def\csname#1\endcsname ##1{}
+  }
+}
+
+%%Controls the language output
+\providecommand\locale{no}
+
+%% Language commands.
+\localedef{no}{norsk}
+\localedef{en}{english}
+%%-----------------------------------------------------------------------------
+
+%% ModernCV themes
+\moderncvtheme[green]{classic}
+%\moderncvtheme[black]{classic}
+%\moderncvtheme[black]{banking}
+\renewcommand{\familydefault}{\sfdefault}
+%\nopagenumbers{}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Adjust the page margins
+\usepackage[scale=0.90]{geometry}
+
+%%URL support
+\usepackage{hyperref}
+
+%%% Classic style edits. 
+%%% http://ctan.uib.no/macros/latex/contrib/moderncv/moderncvstyleclassic.sty
+%% change size of contact info. 
+% fonts
+\renewcommand*{\addressfont}{\large\mdseries\slshape}
+% styles
+\renewcommand*{\addressstyle}[1]{{\addressfont\textcolor{color1}{#1}}}
+%% set size of left column. 
+\setlength{\hintscolumnwidth}{3.1cm}
+
+%% Personal data
+\firstname{Magnus Løken}
+\familyname{Kirø}
+%\address{Postboks 146, 
+%\en{Apartment}\no{Leilighet} 
+%}{3166 Tolvsrød,
+%\en{Norway}\no{Norge}}
+%\phone[mobile]{+47~91~74~85~66}
+%\email{magnuskiro@gmail.com}
+%\homepage{magnuskiro.no}
+%\social[linkedin]{magnuskiro}
+%\social[twitter]{magnuskiro}
+%\social[github]{magnuskiro}
+\extrainfo{\textdagger 15.03.1990}
+%\photo[100pt][1pt]{test.jpg}
+
+% title is the current position you have. 
+\title{Web-/Systemutvikler}
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle{}
+
+\subsection{\no{Sammendrag}}
+% Sammendrag av deg som kosnulent.
+\cvline{}{
+\no{
+%Her skal du skrive en egen beskrivelse av deg. 
+%%%%%----------------------------------------------
+%1. Innledning: Beskriv din kompetanse  med to-tre setninger, referere til din
+%erfaring og  kompetens, bransch eller projekt. 
+Magnus har fem års erfaring med IT og ledelse fra frivillige organisasjoner i
+tilknytning til Studentersamfundet i Trondhjem.
+Kjernekompetansen ligger på web-/systemutvikling, samt IT-support. 
+Ledelse, og organisasjonsarbeid har han også jobbet med. Som IT-sjef i Studentmediene
+i Trondheim AS har han også erfaring med ledelse, prosjektarbeid, og strategi.  
+%%%%%----------------------------------------------
+\newline
+%2. Utdanning:  Utdannet innen… retning, eventuelle sertifisernger..
+Magnus har fullført master i informatikk på Norges Teknisk-Naturvitenskaplige
+Universitet med informasjonsforvaltning som studieretning. 
+Utover mastergraden har Magnus også studert fag innenfor psykologi, og ledelse.
+%%%%%----------------------------------------------
+\newline
+%3. Hva utmerker deg/ Hvordan fungerer du i prosjekt?
+% beskriv hva erfaringene har gitt deg. Personlige egenskaper som er verdt å
+% framheve for kunden. 
+Som leder i prosjektarbeid er Magnus en pådriver som holder oversikt og vet litt om alt. Han
+er løsningsorienter, og har fokus på målsetningene. Magnus er en omgjengelig
+person som er lett å prate med. Med bred kompetanse er Magnus en svært allsidig
+konsulent som er interessert i å påta seg et stort spekter av oppgaver. 
+%%%%%----------------------------------------------
+% ”Det som utmerker seg ved Anna i prosjekt er..”  hvordan jobber du i prosjekt,
+%lederrolle, drivkraft, problemløser, etc …”.
+%Bruk malen som inspirasjon og skriv en egen presentasjon ut i fra bredvid som
+%inspiration och skriv en egen presentation utifra samme stil.
+}
+}
+
+% Beskrivende hovedtrekk ved deg.
+\subsection{\no{Hovedkvalifikasjoner /
+Spesialkunnskaper}}\label{specialQualifications}
+\no{
+%Her skriver du dine fremste kompetanseområder. 
+\cvline{}{
+Web-/Systemutvikling
+}
+\vspace{.2cm}
+\newline
+%%-----------------------------------------------------------------------------
+%Løft frem tre erfaringer du er mest stolt av som karakteriserer deg litt
+%ekstra. (punktliste)
+\cvline{Fremhevet erfaring}{
+\begin{itemize}
+\item IT-sjef i Studentmediene i Trondheim AS. \newline
+Ledelse, personalansvar, og prosjektansvar. 
+%%-----------------------------------------------------------------------------
+\item Maskinist, Under Dusken. \newline
+IT-ledelse, IT-drift, systemutvikling. 
+%%-----------------------------------------------------------------------------
+\item Systemutvikler, iNic AS \newline
+Lærte programmering i Perl. Laget webservice som registrer domener hos NORID. 
+\end{itemize}
+}
+}
+
+\section{\no{Web-/Systemutvikler}}
+\subsection{\no{Teknisk Profil}}
+% Under denne seksjonen og de følgende skal du liste samtlige teknikker du har
+% jobbet med, uansett hvor stor eller liten erfarening du har innen aktuell
+% teknikk. Ikke vær redd for å ta med noe selv om du bare har sittet og plukket
+% litt med teknikken. Dersom du har jobbet med en teknikk er det kunnskap,
+% uansett om du er ekspert innen emnet eller ei. Det kreves ikke at du fått
+% betalt for å lære deg noe. Kompetanse som kommer fra egenintresse er lik
+% relevant.
+\newline
+
+\cvline{Arbeidsområde}{
+Webutvikling, Systemutvikling, Systemintegrasjon, Kravspessifisering,
+Systemarkitektur, Databasedesign, Personaledelse, Prosjektledelse,
+Organisasjonsledelse, IT-Rådgivning, IT-strategi, IT-drift, IT-infrastruktur,
+IT-support.
+}
+%%-----------------------------------------------------------------------------
+\cvline{Utviklingsspråk og rammeverk}{
+Java, Scala, Pythnon, PHP, C, C++, GO, Perl, Bash, Shell, Lua, JavaScript,
+Assembly, Hibernate, \LaTeX, 
+Net::EPP::Client, Spring, Flask, jQuery, Knockout.js, Angular.js, D3.js, Bootstrap, Grunt, 
+nltk, JQuery, PLayFramework, 
+}
+%%-----------------------------------------------------------------------------
+\cvline{Web- og mobilutvikling}{
+XML, HTML5, CSS3, JSON, Web Services, Apache VelocityViews,
+}
+%%-----------------------------------------------------------------------------
+\cvline{Arkitektur og Design}{
+BPMN, UML, MVC 
+}
+%%-----------------------------------------------------------------------------
+\cvline{Metodikk}{
+Agile, Scrum, Waterfall, ITIL Foundation, 
+}
+%%-----------------------------------------------------------------------------
+\cvline{Databaser}{
+PostgreSQL, MySQL, HSQL
+}
+%%-----------------------------------------------------------------------------
+\cvline{Test}{
+Junit
+}
+%%-----------------------------------------------------------------------------
+\cvline{Produkter/Miljøer}{
+Intellij IDEA, Pycharm, Eclipse, Linux Mint, Debian, Ubuntu, Ubuntu
+server, Windows 7, Awesome, 
+MediaWiki, Joomla, Wordpress, Confluence, Android SDK,
+Google analytics, SSH, Subversion, Git, GIMP, Vim, OwnCloud, Apache2,
+Bower, Maven, Ant, Aptitude,  
+phpMyAdmin, phpLDAPadmin, LDAP, Jenkins, Microsoft Office, Microsoft Outlook,
+Sonatype Nexus,  
+}
+%%-----------------------------------------------------------------------------
+\cvline{Annet}{
+}
+%%-----------------------------------------------------------------------------
+% Make sure this section is the same as \ref{specialQualifications}
+\cvline{Spesialkunnskaper}{
+Web-/Systemutvikling  
+}
+%%-----------------------------------------------------------------------------
+
+\vspace{.2cm}
+\subsection{\no{Annet}}
+%[- Her skal du skrive alle relevante utdanninger og sertifiseringer du har tatt.
+%Samt språk du kan.]
+\subsubsection{Utdanning}\newline
+\input{../educaton.tex}
+%%-----------------------------------------------------------------------------
+\vspace{.2cm}
+\subsubsection{Kurs og Sertefiseringer}\newline
+%\cvline{}{Ingen}
+% TODO: add file for certifications. 
+\input{certificates.tex}
+%%-----------------------------------------------------------------------------
+\vspace{.2cm}
+\input{languages.tex}
+%%-----------------------------------------------------------------------------
+
+% Separation here summary first, experience after this. 
+\newpage
+
+% list / table of employees
+\input{workExperience.tex}
+
+
+% detailed descriptions of positions and projects.
+\section{\no{Prosjekterfaring}\en{Qualifications}}
+%[- Detaljerte beskrivelser av arbeidet som er utført hos de forskjellige
+%arbeidsgiverene.]
+
+%[- Her under lister du opp all prosjekterfaring. Ikke glem deltidsstillinger og
+%ekstrajobber. 
+%Del opp lengre prosjekt eller stillinger etter ulike prosjekt du jobbet  i
+%og/eller etter ulike roller du hatt i prosjektet slik at det blir flere poster,
+%da blir din kompetanse mer lettlest.]
+
+\input{projects.tex}
+
+% Highlights from projects andpossitions
+%\section{\no{Prosjekterfaring (Fremhevede prosjekter)}\en{Project Experience
+%(Highlights)}}
+%- trekke fram de prosjektene som har vært viktigst. 
+
+
+\end{document}

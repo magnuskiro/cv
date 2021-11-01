@@ -1,0 +1,246 @@
+Magnus Løken Kirø
+Web-/Systemutvikler
+
+†15.03.1990
+
+Sammendrag
+Magnus har fem års erfaring med IT og ledelse fra frivillige organisasjoner i tilknytning til Studentersamfundet i
+Trondhjem. Kjernekompetansen ligger på web-/systemutvikling, samt IT-support. Ledelse, og organisasjonsarbeid har
+han jobbet med. Som IT-sjef i Studentmediene i Trondheim AS har han også erfaring med ledelse, prosjektarbeids, og
+strategi.
+Magnus har fullført Master i informatikk på Norges teknisk-naturvitenskaplige universitet med informasjonsforvaltning
+som studieretning. Utover mastergraden har Magnus også studert fag innenfor psykologi, og ledelse.
+Som leder i prosjektarbeid er Magnus en pådriver som holder oversikt og vet litt om alt. Han er løsningsorienter, og har
+fokus på målsetningene. Magnus er en omgjengelig person som er lett å prate med. Med bred kompetanse er Magnus
+en svært allsidig konsulent som er interessert i å påta seg et stort spekter av oppgaver.
+
+Hovedkvaliﬁkasjoner / Spesialkunnskaper
+Web-/Systemutvikling
+Fremhevet erfaring
+
+IT-sjef i Studentmediene i Trondheim AS.
+Ledelse, personalansvar og prosjektansvar.
+Maskinist, Under Dusken.
+IT-ledelse, IT-drift, systemutvikling.
+Systemutvikler, iNic.
+Lærte programmering i Perl. Laget webservice som registrer domener hos NORID.
+
+Web-/Systemutvikler
+Teknisk Proﬁl
+Arbeidsområde Webutvikling, Systemutvikling, Systemintegrasjon, Kravspessiﬁsering, Systemarkitektur,
+Databasedesign, Personlaledelse, Prosjektledelse, Organisasjonsledelse, IT-Rådgivning, IT-strategi,
+IT-drift, IT-infrastruktur, IT-support.
+Utviklingsspråk og Java, Scala, Pythnon, PHP, C, C++, GO, Perl, Bash, Shell, Lua, JavaScript, CSS3, HTML5,
+A
+rammeverk Assembly, Hibernate, LTEX, Net::EPP::Client, Spring, Flask, jQuery, Knockout.js, Angular.js, D3.js,
+Bootstrap, Grunt,
+Web- og XML, HTML, JSON, Web Services
+mobilutvikling
+Arkitektur og BPMN, UML, MVC
+Design
+Metodikk Agile, Scrum, Waterfall, ITIL Foundation,
+Databaser PostgreSQL, mySQL, HSQL
+Test Junit
+Produkter/Miljøer Intellij IDEA, Pycharm, Eclipse, Linux, Linux Mint, Debian, Ubuntu, Ubuntu server, Windows
+7, Awesome, MediaWiki, Joomla, Wordpress, Conﬂuence, Android SDK, Google analytics, SSH,
+Subversion, Git, Eclipse, GIMP, Vim, OwnCloud, Apache2, Bower, Maven, Ant, Aptitude,
+Annet
+Spesialkunnskaper Web-/Systemutvikling, ledelse i frivillge organisasjoner.
+
+Annet
+Utdanning
+
+1/5
+
+08.2014 - 06.2015 Norges Teknisk-Naturvitenskapelige Universitet(NTNU)
+
+Individuelle studier innenfor ledelse, psykologi, og IT.
+08.2012 - 06.2014 NTNU, master i informatikk
+Studieretning: Informasjonsforvaltning. Avhandling: ’Tweet Sentiment, Sentiment Trend,
+and a Comparison with Financial Trend Indicators.’
+08.2009 - 06.2012 NTNU, bachelor i informatikk
+Systemutvikling og kunstig intelligens har vært mine fokusområder under bachelorgraden.
+Resultatene fra bacheloroppgaven, Role-based Quality of Service for Web Services, er
+publisert av Forsvarets Forskningsinstitutt i Globecom Workshops.
+08.2006 - 06.2009 Greveskogen Vidregående Skole, Tønsberg
+Studiespessialisering med matte, fysikk og IT.
+Kurs og Serteﬁseringer
+07.02.2012 Regnskap. 6 timers kurs i regnskap og budsjettering for frivillige organisasjoner.
+Språk
+Norsk – Morsmål
+Engelsk – Flytende skriftlig og muntlig
+Tysk – Elementært skriftlig og muntlig
+
+2/5
+
+Arbeidserfaring
+Arbeidsgiver
+År
+Næringslivsnettverket KiD
+Q3.2014 - Q2.2015
+Studentmediene i Trondheim AS Q2.2013 - Q4.2014
+Academic Work
+Under Dusken
+
+Q4.2012 - Q2.2013
+Q1.2010 - Q2.2013
+
+iNic AS
+
+Q2.2012 - Q3.2012
+
+Stilling
+Systemutvikler
+IT-sjef, Systemutvikler,
+Intern områdeansvarlig
+Konsulent
+Maskinist, Systemutvikler,
+Intern områdeansvarlig
+Systemutvikler
+
+Beskrivelse av Arbeidsgivere
+Næringslivsnettverket Næringslivsnettverket KiD jobber for å bedre kontakten mellom studenter og bedrifter på NTNU.
+KiD KiD står for Kommunikasjons-, Informasjons- og Datateknologi. KiD er et sammarbeid mellom
+studenter, ansatte ved NTNU, og sammarbeids-bedriftene.
+Studentmediene i Studentmediene i Trondheim er drevet på ﬀrivillig basis av studenter i Trondheim, og består av
+Trondheim AS papiravisen Under Dusken, nettavisen Dusken.no, studentradioen Radio Revolt, og Student-TV.
+I tillegg har Studentmediene egne avdelinger for blant annet marked, salg, økonomi og IT. Vi
+drifter alle produktene selv, samt utvikler nye produkter som iBok, nettisde for kjøp og salt av
+pensymbøker, og Barteguiden, en app som gir oversikt over arrangementer i Trondheim. I tillegg
+til å være AS er Studentmediene en del av Studentersamfundet i Trondhjem.
+Academic Work Academic Work er et bemannings og konsulentselskap som spessialiserer seg på studenter og
+nyutdannede.
+Under Dusken Studentavisa i Trondheim. Tilknyttet Studentersamfundet i Trondhjem. Avisa ble stiftet i 1914,
+og er den eldste studentavis i skandinavia. Avisa kom med innhold på nett i 1994 og har siden da
+hatt nettavis.
+iNic AS iNic AS / FastName.no er en ledende NORID/Uninett-akkreditert registrar, kapabel til å registrere
+toppnivådomenenavn over store deler av verden.
+Vi leverer tjenester innenfor domeneregistrering, webhotell, epost og løsninger innen design/programmering. Pr. oktober 2010 betjener vi over 15000 kunder med til sammen over 39000
+domenenavn. Vi er med dette en av landets største registrarer av domenenavn.
+
+Prosjekterfaring
+Systemutvikler
+Q3.2014 - Q2.2015 Næringslivsnettverket KID
+Magnus har utviklet kid.item.ntnu.no vidre. Han har bistått mest med backend programmernig
+i Java og Scala, samt drift av webserveren. Magnus har også jobbet med frontend-utvikling og
+benyttet Knockout.js, jQuery, HTML5 og CSS3.
+Teknikker Java, Scala, HTML5, CSS3, JavaScript, PlayFramework, Knockout.js, jQuery, MySQL
+Miljøer Linux, Ubuntu Server, Intellij IDEA, phpMyAdmin,
+
+Systemutvikler
+Q3.2014 - Q4.2014 Studentmediene i Trondheim AS
+Magnus har startet ny-utviklingen av et tidligere system fra Under Dusken og fullførte alpha
+versjonen. Systemet holder oversikt over transaksjoner og regninger, fra sosiale sammenkomster
+på Samfundet, for organisasjonens medlemmer. Prosjektet ble overlevert ny prosjekleder i god
+stand og med klare mål og oppgaver for vidre utvikling.
+Teknikker Java, HTML5, CSS3, JavaScript, Spring, Angular.js,
+Miljøer Linux, Ubuntu Server, Intellij IDEA,
+
+IT-drift
+Q2.2013 - Q4.2014 Studentmediene i Trondheim AS
+
+3/5
+
+Magnus har gjennom sin tid i Studentmediene vært med i IT-drifts-komiteen. Komiteen har
+ansvaret for servere, arbeidsstasjoner, nettverk, og printere. IT-drift jobber til daglig tett opp mot
+IT-utvikling. Magnus har hatt ansvar for de gamle serveren til Under Dusken og utfasing av disse
+og han har hatt rådgivende rolle i komiteen. Magnus har tatt del i oppsett og planlegging av ny
+infrastruktur.
+Teknikker Java, HTML5, CSS3, JavaScript, Spring,
+Miljøer Linux, Ubuntu Server, Debian, Intellij IDEA, MediaWiki,
+
+Student
+Q3.2013 - Q2.2014 NTNU
+I sin masteroppgave har Magnus undersøkt tre ting. Hvordan man kan klassiﬁsere sentimentet til
+en tweet, om twitter-data kan bli brukt til å aggregere trender, og hvordan de twitter-aggregerte
+trendene stemmer overens med teknisk analyse i aksjemarkedet.
+A
+Teknikker Python, Flask, LTEX, nltk,
+Miljøer Linux, Pycharm,
+
+IT-Sjef
+Q2.2013 - Q2.2014 Studentmediene i Trondheim AS
+Som IT-sjef har Magnus tatt del i selskapets ledergruppe. Ledergruppa er sammensatt av
+administrativ, redaksjonell og teknisk ledelse. Ledergruppa har som oppgave å ta overordnede
+avgjørelser relatert til økonomi, administrasjon, og strategi, samt å ta seg av den daglige driften
+av selskapet.
+IT-avdelingen er hovedansvaret til Magnus. IT-avdelingen består av 25 utviklere og prosjekledere
+som Magnus har hatt personalansvar for. I sin periode som IT-sjef bygde Magnus opp avdelingen
+på nytt. Dette var i sammenheng med omorganiseringen av studentmediene i Trondheim. Gjennom
+oppbygningen av avdelingen har det været fokus på å bygge kultur og sosialt samhold.
+Magnus har hatt ansvaret for alle IT-utviklingsprosjekter i selskapet. Dette er i hovedsak syv
+stykker; Anthropos, Barteguiden, Barweb, Chimera, iBok, InternSida, Momus.
+Magnus har laget egen strategi for IT-utvikling. Strategien tar for seg hvilke områder man bør
+satse på, hvilken rolle IT-avdelingen har i resten av organisasjonen, hvilke prosjekter og teknologier
+man bør satse på, og hvordan man kan utvide tjenestetilbudet innad i organisasjonen med de
+begrensede ressursene man har til IT-utvikling.
+Da Magnus var ferdig i stillingen hadde IT-avdelingen fått en god og fungerende struktur med
+godt miljø og god kultur. Man har også klart å bygge kompetanse i perioden, noe man nyter godt
+av i etterkant. Magnus har i helhet lagt et godt grunnlag for vidre utvikling av IT-avdelingen og
+de IT-prosjekter som foreligger i Studentmediene.
+Teknikker Java, HTML5, CSS3, JavaScript, Spring,
+Miljøer Linux, Ubuntu Server, Intellij IDEA,
+
+Konsulent, Webutvikler, IT-support
+Q4.2012 - Q2.2013 Academic Work
+På oppdrag hos Coperio jobbet Magnus med IT-support og webutvikling. Han hjalp ansatte med
+problemer på Windows 7, oppsett av nye maskiner, printer oppsett og MS Oﬃce. Utviklingen
+bestod i å bytte ut Coperio sin nettside med en ny og bedre side bassert på Joomla. Hovedarbeidet
+bestod i oppsett av Joomla, og utforming av utseendet på nettsiden.
+Magnus laget oversikt og satte opp nettverket og trådløst nett for Coperio.
+Teknikker PHP, HTML5, CSS3, JavaScript, MySQL
+Miljøer Linux, Intellij IDEA, phpMyAdmin, Joomla, Ms Windows 7, MS Outlook, MS Oﬃce,
+
+Systemutvikler
+Q2.2012 - Q3.2012 iNic AS
+
+4/5
+
+Magnus startet utviklingen av en web-service i Perl som registrerte domener opp mot systemene
+til NORID. Utviklingen ble utført i et Linux miljø. Vim ble brukt som editor. Bash/shell, til testing
+og feilsøking. MySQL som test database. Git som versjonskontroll system for koden. I løpet
+av sommerjobben var målet å få registrert domener hos NORID, noe som fungerte akkuratt før
+engasjementet var over.
+Han satte opp og innførte Git, versjonskontroll av kildekode, internt i selskapet med oppsett på
+Ubuntu-server 12.04.
+Teknikker Perl, XML, Bash, Shell, Net::EPP::Client
+Miljøer Linux, Ubuntu Server, Vim, Git, MySQL
+
+Maskinist
+Q3.2010 - Q2.2012 Under Dusken
+Mangus har vært en del av styret i Under Dusken, samlingen av redaktører og andre leder som
+har drevet avisa. Maskinist stillingen har personalansvaret for de 6 datamedarbeiderene man har i
+Under Dusken.
+systemutviklnig og prosjektansvar(Aranea, Pegadi, Annonseweb, Barweb) En sentral oppgave for
+Maskinisten er å drive utviklingen av avisa sine IT-systemer vidre. Dette innebærer prosjektansvar,
+veiledning, og utvikling av disse systemene. De to største prosjektene var Aranea og Pegadi. Aranea
+var applikasjonen som kjørte nettsidene til Under Dusken. Pegadi var et innholds håndteringssystem
+for artikler til avisa.
+Som Maskinist har Magnus hatt ansvaret for alt som har med IT-drift å gjøre. Det omfatter
+servere, arbeidsstasjoner, nettverk og printere. I all hovedsak alt av infrastruktur en avisredaksjon
+kan trenge.
+Teknikker Java, HTML, CSS, JavaScript, Spring, MySQL, PHP, LDAP, Apache VelocityView,
+Miljøer Linux, Ubuntu Server, Debian, Intellij IDEA, phpMyAdmin, Apache 2, Windows 7, Jenkins,
+phpLDAPAdmin, nexsus, MediaWiki
+
+Student
+Q1.2012 - Q2.2012 NTNU, Forsvarets Forskningsinstitutt
+Magnus har gjennom bachelor oppgaven i informatikk laget et ’proof of concept’ for FFI. Han var
+med på å undersøke om man kan prioritere nettverkstraﬁkken til web-services i militære nettverk.
+Resultatene av oppgaven ble publisert av FFI i Globecom Workshops.
+A
+Teknikker LTEX, Axiom 1.2.11, Commons-logging 1.1.1, Git 1.7.x, HTTPCore 4.1.4, JUnit 4.x, MobiEmu,
+ns-3 3.13, OpenJDK Java 1.6.023, WSO2 ESB 4.0.3.
+
+Miljøer Linux, Vim, Eclipse Indigo 3.7.x, GlassFish 3.1.1
+
+Systemutvikler
+Q1.2010 - Q2.2010 Under Dusken
+Magnus deltok i vidreutviklingen av Aranea, prosjektet for nettsiden til Under Dusken. Han har
+jobbet med utvikling av ny funksjonalitet, og vedlikehold av tjenesten.
+Teknikker Java, HTML, CSS, Spring, Apache VelocityView, XML, MYSQL
+Miljøer Linux, Ubuntu Server, Intellij IDEA,
+
+5/5
+
+
